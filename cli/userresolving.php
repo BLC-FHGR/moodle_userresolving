@@ -15,10 +15,10 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * User resolving with Avtice Directory
+ * User resolving with Active Directory
  *
  * @package    tool
- * @subpackage user resolving with Avtice Directory
+ * @subpackage user resolving with Active Directory
  * @copyright 2016, HTW chur {@link http://www.htwchur.ch}
  * @license   http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
  */
