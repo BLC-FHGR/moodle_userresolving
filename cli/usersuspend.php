@@ -158,7 +158,7 @@ function suspend_users($useridarray){
 	}
 	
 	$info  = $countsuspended . " users of ". $countsuspendedusers . " users suspended!";
-	debugging($info);
+	mtrace($info);
 	
 	return $return;
 }
@@ -188,7 +188,7 @@ Options:
 
 
 Example:
-\$ sudo -u www-data /usr/bin/php moodle/admin/tool/cli/usersuspend.php -f=/var/www/moodle/temp/userlist.csv
+\$ sudo -u www-data /usr/bin/php moodle/admin/tool/userresolving/cli/usersuspend.php -f=/var/www/moodle/temp/userlist.csv
 
 ";
 
