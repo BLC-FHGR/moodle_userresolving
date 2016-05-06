@@ -12,7 +12,7 @@ Options:
 -n, --noheader		  	writes no headerrow on top of the CSV file
 
 Example:
-\$ sudo -u www-data /usr/bin/php moodle/admin/tool/cli/userresolving.php
+\$ sudo -u www-data /usr/bin/php moodle/admin/tool/userresolving/cli/userresolving.php
 
 The tool is customised for our needs that the HTW Chur. 
 Only works with the userid of your home organisations (fh-htwchur.ch).
@@ -29,7 +29,7 @@ Options:
 
 
 Example:
-sudo -u www-data /usr/bin/php moodle/admin/tool/cli/usersuspend.php -f=/var/www/moodle/temp/userlist.csv
+sudo -u www-data /usr/bin/php moodle/admin/tool/userresolving/cli/usersuspend.php -f=/var/www/moodle/temp/userlist.csv
 
 A CSV file like the following example:
 4711;323;3234;5553;44332
