@@ -25,7 +25,7 @@
  
 defined('MOODLE_INTERNAL') || die();
  
-$plugin->version   = 2016042500;
+$plugin->version   = 2016050600;
 $plugin->requires  = 2010112400;
 $plugin->cron      = 0;
 $plugin->component = 'tool_userresolving';
